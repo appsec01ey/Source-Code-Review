@@ -36,4 +36,5 @@ app.listen(3000, () => {
 });
 
 /* Solution 
+Here we can see that in line 21 the application takes url from the ?url param in the query and then sends the response data leading to potential SSRF 
 
